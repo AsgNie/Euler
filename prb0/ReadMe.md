@@ -29,4 +29,5 @@ Each of these can be evaluated as a close-form expression instead of itterativel
 * `sum_{n=1}^{N}{ n^2 } = N(N+1)(2N+1)/6`
 * `sum_{n=1}^{N}{ n }   = N(N+1)/2`
 * `sum_{n=1}^{N}{ 1 }   = N`
+
 A proof of the two first can be found at [Brilliant](https://brilliant.org/wiki/sum-of-n-n2-or-n3/), while the third is simply to take add one N times, giving a final sum of N.
