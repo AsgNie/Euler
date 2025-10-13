@@ -5,11 +5,12 @@
 
 // Optimised solution using finite sum of integers
 
-// Upper bounds of sums
-#define UPPER_BOUND (100000)
-#define N3_MAX  (UPPER_BOUND/ 3)
-#define N5_MAX  (UPPER_BOUND/ 5)
-#define N15_MAX (UPPER_BOUND/15)
+// Upper bound.
+#define UPPER_BOUND (1000)
+// Upper bounds of sums. Problem specifies multiplicants BELOW the upper bound, thus the minus 1.
+#define N3_MAX  ((UPPER_BOUND-1)/ 3)
+#define N5_MAX  ((UPPER_BOUND-1)/ 5)
+#define N15_MAX ((UPPER_BOUND-1)/15)
 
 
 int main(void)

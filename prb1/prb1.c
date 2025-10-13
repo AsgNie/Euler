@@ -4,7 +4,7 @@
 
 // Naive solution using for-loops.
 
-#define UPPER_BOUND (100000)
+#define UPPER_BOUND (1000)
 
 
 int main(void)
@@ -13,13 +13,13 @@ int main(void)
     begin = clock();
 
     uint64_t sum = 0;
-    for (size_t n = 3; n <= UPPER_BOUND; n+=3)
+    for (size_t n = 3; n < UPPER_BOUND; n+=3)
     {
         sum += n;
     }
 
     uint32_t cnt = 0;
-    for (size_t n = 5; n <= UPPER_BOUND; n+=5)
+    for (size_t n = 5; n < UPPER_BOUND; n+=5)
     {
         // If value already counted in n=3 loop, skip to next itteration.
         cnt++;
